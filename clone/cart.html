@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+    integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+         .color {
+            background-color: rgba(59, 93, 79, 255);
+        }
+
+        .nav-link {
+            color: white;
+        }
+        .hori{
+            border: 2px solid rgb(3, 3, 3);
+            color: black;
+        }
+        .new{
+            background-color: rgba(240,242,241,255);
+        }
+        .up{
+            border-radius: 22px;
+            padding:10px;
+            width: 150px;
+            border:1px solid grey;
+            background-color: black;
+            color: white;
+        }
+        .up1{
+            border-radius: 22px;
+            padding:10px;
+            width: 200px;
+            border:1px solid grey;
+            background-color: black;
+            color: white;
+        }
+        .enter{
+            width: 350px;
+            border-radius: 10px;
+            border:1px solid grey;
+            height:40px;
+        }
+        .app{
+            border:1px solid grey;
+            border-radius: 30px;
+            width:150px;
+            padding:10px;
+            color: white;
+            background-color: black;
+        }
+        .app1{
+            border:1px solid grey;
+            border-radius: 30px;
+            width:250px;
+            padding:15px;
+            color: white;
+            background-color: black;
+        }
+        #tabel{
+           margin-top: -100px;
+           margin-bottom :-200px;
+           margin-left: 800px;
+        }
+        .haha:hover{
+      background-color:  rgba(59, 93, 79, 255);
+      border-radius: 30px;
+    color: aliceblue;
+     
+        }
+        .haha{
+            padding:10px;
+            color:black;
+        }
+        .tele{
+            border-radius: 15px;
+            height:55px;
+            width:85px;
+        }
+        .label{
+            width:250px;
+            height:50px;
+            border-radius: 10px;
+            border:1px solid rgb(139, 128, 128);
+            padding-left:10px;
+        }
+        .but{
+            display: inline;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="color">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container color">
+                <a class="navbar-brand" href="#">
+                    <h1 style="color: white;">Furni</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="sevices.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-5" href="contactus.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-5" href="#"><i class="fa-regular fa-user"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4 active" style="color:yellow" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container color mt-5">
+        
+            <div class="row mt-5"></div>
+            <div class="row mt-5">
+                <h1 style="color: white;"><b>Cart</b></h1>
+            </div>
+            <div class="row mt-5"></div>
+            <div class="row mt-5"></div>
+            <div class="row mt-5"></div>
+        </div>
+    </div>
+     
+    <div class="container-fluid new">
+        <div class="container">
+            <div class="row"></div>
+            <div class="row mt-5"></div>
+            <div class="row mt-5">
+                <div class="col-md-2">
+                    <h5>Image</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>Product</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>Price</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>Quantity</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>Total</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>Remove</h5>
+                </div>
+            </div>
+          <hr class="hori">
+          <div class="row">
+            <div class="col-md-2">
+                <img src="https://themewagon.github.io/furni/images/product-1.png" class="img-fluid">
+            </div>
+            <div class="col-md-2">
+                <h6 class="mt-5">Product 1</h6>
+            </div>
+            <div class="col-md-2">
+                <p class="mt-5">$46.0</p>
+            </div>
+            <div class="col-md-2 mt-4">
+                <a style="text-decoration: none; color: black;" onclick="sub()"><h1 class="but">-</h1></a>
+                <button class="but" style="height: 40px; width: 40px;"><p id="addme">0</p></button>
+                <a style="text-decoration: none; color: black;" onclick="add()"><h1 class="but">+</h1></a>
+<script>
+    var count=0;
+    function sub(){
+        count=count-1
+        document.getElementById("addme").innerHTML=count;
+ }
+ function add(){
+    count=count+1;
+    document.getElementById("addme").innerHTML=count;
+ }
+</script>
+            </div>
+            <div class="col-md-2">
+                <p class="mt-5">$46.0</p>
+            </div>
+            <div class="col-md-2 mt-5">
+                <a href="#" style="text-decoration: none; color:black"><b>x</b></a>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-2">
+                <img src="https://themewagon.github.io/furni/images/product-1.png" class="img-fluid">
+            </div>
+            <div class="col-md-2">
+                <h6 class="mt-5">Product 1</h6>
+            </div>
+            <div class="col-md-2">
+                <p class="mt-5">$46.0</p>
+            </div>
+            <div class="col-md-2 mt-4">
+                <a style="text-decoration: none; color: black;" onclick="subme()"><h1 class="but">-</h1></a>
+                <button class="but" style="height: 40px; width: 40px;"><p id="subme">0</p></button>
+               <a style="text-decoration: none; color: black;" onclick="addme()"><h1 class="but">+</h1></a>
+               <script>
+                var count=0;
+                function addme(){
+                    count=count+1;
+                    document.getElementById("subme").innerHTML=count;
+                }
+
+                function subme(){
+                    count=count-1;
+                    document.getElementById("subme").innerHTML=count;
+                }
+                
+               </script>
+            </div>
+            <div class="col-md-2">
+                <p class="mt-5">$46.0</p>
+            </div>
+            <div class="col-md-2 mt-5">
+                <a href="#" style="text-decoration: none; color:black"><b>x</b></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="row">
+            <div class="col-md-2 mt-5">
+               <a href="#"><button class="up">Update Cart</button></a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 mt-5">
+                <a href="#"><button class="up1">Continue Shopping</button></a>
+             </div>
+             <div class="col-md-3"></div>
+             <div class="col-md-4 mt-4">
+                <p style="font-size: 30px;">CART TOTALS</p>
+                <hr>
+             </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 mt-3">
+                <h4 style="font-size: 25px;">Coupon</h4>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-2">
+                    <p>SubTotal</p>
+               </div>
+                <div class="col-md-2">
+                    <h6>$230.00</h6>
+                </div>
+          
+
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+                <p>Enter your coupon code if you have one.</p>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <p>Total</p>
+            </div>
+            <div class="col-md-2">
+                <h6>$230.00</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+                <input type="text" class="enter">
+            </div>
+           
+            <div class="col-md-2">
+              <a href=""><button class="app">Apply <br>Coupon</button></a> 
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-3 mt-5">
+            <a href=""><button class="app1">Proceed To CheckOut</button></a> 
+          </div>
+
+        </div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5">
+            <div class="col-md-4 mt-5">
+                <img src="https://themewagon.github.io/furni/images/sofa.png" id="tabel" class="img-fluid ">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mt-5"></div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <h4><i class="fa-solid fa-envelope"></i>&nbsp;&nbspSubscribe to Newsletter</h4>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <form>
+                <input type="text" placeholder="Enter your name" class="label me-2" >
+                
+                <input type="text" placeholder="Enter your email" class="label me-2"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgkbw1_1cvbUEPrBXy2NZvqqMB7VCs8c6pU0EaECjw7z9km-vD" class="tele"></i>
+                
+            </form>
+    </div>
+    
+   
+    </div>
+</div>
+<div class="row mt-5"></div>
+    <div class="row mt-5"></div>
+
+    <div class="container">
+        <div class="row">
+            <h4>Furni</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-3 me-5">
+                <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+            
+            </div>
+            <div class="col-md-1">
+                <a href="" style="text-decoration: none; color: black;" >About Us</a>
+                <a href="" class="mr-5" style="text-decoration: none; color: black;">Services</a>
+                <a href="" class="mr-5" style="text-decoration: none; color: black;">Blogs</a>
+                <a href="" class="mr-5"style="text-decoration: none; color: black;">Contact Us</a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <a href="" class="mt-3" style="text-decoration: none; color: black;">Support</a><br>
+                <a href="" class="mt-5" style="text-decoration: none; color: black;">Knowledge base</a><br>
+                <a href="" style="text-decoration: none; color: black;">Live chat</a>
+            </div>
+           
+            <div class="col-md-1">
+                <a href="" class="mt-3" style="text-decoration: none; color: black;">Jobs</a><br>
+                <a href="" class="mt-5" style="text-decoration: none; color: black;">Our Team</a>
+                <a href="" style="text-decoration: none; color: black;">Leadership</a>
+                <a href="" style="text-decoration: none; color: black;">Privacy policy</a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <a href="" class="mt-3" style="text-decoration: none; color: black;">Narcodic Chair</a><br>
+                <a href="" class="mt-5" style="text-decoration: none; color: black;">Kruzo Aero</a><br>
+                <a href="" style="text-decoration: none; color: black;">Ergonomic Chair</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"><a href="#"><i class="fa fa-brands fa-facebook-f me-2 haha" style="font-size: 30px;"></i></a>
+                <a href="#"><i class="fa fa-brands fa-twitter me-2 haha" style="font-size: 30px;"></i></a>
+                <a href="#"><i class="fa fa-brands fa-instagram me-2 haha" style="font-size: 30px;"></i></a>
+                <a href="#"><i class="fa fa-brands fa-linkedin me-2 haha" style="font-size: 30px;"></i></a></div>
+                
+                
+            </ul>
+        </div>
+        <div class="row mt-5"></div>
+    
+
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co</p>
+                <p>Distributed By ThemeWagon</p>
+            </div>
+            <div class="col-md-3"></div>
+           <div class="col-md-3">
+            <p>Terms & Conditions
+                Privacy Policy</p>
+           </div>
+            
+        </div>
+        <div class="row mt-5"></div>
+    </div>
+</body>
+</html>
